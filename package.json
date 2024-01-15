@@ -1,0 +1,50 @@
+{
+  "name": "practice-1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "tsx db/seeder.ts"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "heroicons": "^2.0.18",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.7",
+    "next": "^14.0.4",
+    "next-auth": "^4.24.5",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-hook-form": "^7.48.2",
+    "tsx": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.1",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
+    "autoprefixer": "latest",
+    "eslint": "^8.52.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-next": "latest",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "html-loader": "^4.2.0",
+    "mock-aws-s3": "^4.0.2",
+    "postcss": "latest",
+    "prettier": "3.0.3",
+    "tailwindcss": "latest",
+    "typescript": "latest"
+  }
+}
